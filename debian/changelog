@@ -1,3 +1,9 @@
+jackson-annotations (2.8.6-1) unstable; urgency=medium
+
+  * New version. 
+
+ -- Yury Zavarin <yzavarin@ebi.ac.uk>  Thu, 26 Jan 2017 12:31:30 +0000
+
 jackson-annotations (2.7.3-1) unstable; urgency=medium
 
   * Team upload.

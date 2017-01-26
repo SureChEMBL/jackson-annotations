@@ -1,0 +1,11 @@
+debhelper-build-stamp
+files
+libjackson2-annotations-java-doc.debhelper.log
+libjackson2-annotations-java-doc.substvars
+libjackson2-annotations-java-doc/
+libjackson2-annotations-java.debhelper.log
+libjackson2-annotations-java.substvars
+libjackson2-annotations-java/
+maven-repo/
+maven.cleanIgnoreRules
+stamp-poms-patched
