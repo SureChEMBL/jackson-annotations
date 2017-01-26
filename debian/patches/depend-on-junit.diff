@@ -1,0 +1,18 @@
+--- a/pom.xml
++++ b/pom.xml
+@@ -32,6 +32,15 @@
+     <osgi.export>com.fasterxml.jackson.annotation.*;version=${project.version}</osgi.export>
+   </properties>
+ 
++  <dependencies>
++    <dependency>
++      <groupId>junit</groupId>
++      <artifactId>junit</artifactId>
++      <version>4.11</version>
++      <scope>test</scope>
++    </dependency>
++  </dependencies>
++
+   <build>
+     <plugins>
+       <plugin>

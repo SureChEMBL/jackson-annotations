@@ -1,0 +1,39 @@
+jackson-annotations (2.7.3-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+    - Refreshed the patch
+    - New build dependency on junit4
+  * Standards-Version updated to 3.9.8 (no changes)
+  * Use secure Vcs-* URLs
+
+ -- Emmanuel Bourg <ebourg@apache.org>  Fri, 08 Apr 2016 13:02:47 +0200
+
+jackson-annotations (2.4.2-2) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Timo Aaltonen ]
+  * control: Update policy to 3.9.5, no changes.
+
+  [ tony mancill ]
+  * Fix debian/maven.{rules,publishedRules}: set type to
+    bundle to properly match the target (closes: #760877).
+    - Thank you to  Gilles Filippini for the patch.
+
+ -- tony mancill <tmancill@debian.org>  Wed, 10 Sep 2014 06:54:44 -0700
+
+jackson-annotations (2.4.2-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Add libmaven-bundle-plugin-java to build-depends-indep.
+  * properties: Source uses UTF-8 encoding.
+  * fix-using-bundle.diff: Use bundle plugin correctly.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Sat, 06 Sep 2014 16:47:09 +0300
+
+jackson-annotations (2.2.2-1) unstable; urgency=low
+
+  * Initial release. (Closes: #720503)
+
+ -- Wolodja Wentland <debian@babilen5.org>  Thu, 22 Aug 2013 17:40:58 +0000
